@@ -9,18 +9,19 @@
 </head>
 <body>
     <h1>Hello World!</h1>
-    <h2>Welcome to Hello Worlds!</h2>
+    <h2>Welcome to Hello World example storage!</h2>
     <p>
-        I did a storage of hello world examples on pretty much all popular languages. Because why not ¯\_(ツ)_/¯
+        I did a storage of hello world examples on pretty much all popular languages, because why not<br/>¯\_(ツ)_/¯
     </p>
     <div class="ExamplesContainer">
-        <p>Note: the project is still work in progress. Content will be added, edited or removed.</p>
+        <p>Note: the project is still work in progress. Content can be added, edited or removed.</p>
 
         <p>Examples on:</p>
 
         <h3>Assembly</h3>
         <div class="Example"><pre><code class="language-x86asm">; hello world example on assembly language
-; code for windows x86_64
+; the following code is written for NASM assembler
+; with help of C functions
 
 global  _main
 extern  _printf
@@ -41,6 +42,7 @@ db      'Hello World!', 10, 0</code></pre></div>
 
 int main() {
     printf("Hello World!");
+    return 0;
 }</code></pre></div>
         <a href="./sources/hello.c.zip">Download source</a>
 
