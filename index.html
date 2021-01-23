@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.5.0/build/styles/monokai.min.css">
+    <link rel="stylesheet" href="./styles/monokai.css">
     <link rel="stylesheet" href="./styles/style.css">
     <title>Hello Worlds</title>
 </head>
@@ -19,7 +19,7 @@
         <p>Examples on:</p>
 
         <h3>Assembly</h3>
-        <div class="Example"><pre><code class="plaintext">; hello world example on assembly language
+        <div class="Example"><pre><code class="language-x86asm">; hello world example on assembly language
 ; code for windows x86_64
 
 global  _main
@@ -32,9 +32,17 @@ call    _printf
 add     esp, 4
 ret
 message:
-db      'Hello World!', 10, 0
-; syntax highlighting soon...</code></pre></div>
+db      'Hello World!', 10, 0</code></pre></div>
         <a href="./sources/hello.asm.zip">Download source</a>
+
+        <h3>C</h3>
+        <div class="Example"><pre><code class="language-c">// hello world example on C language
+#include "stdio.h"
+
+int main() {
+    printf("Hello World!");
+}</code></pre></div>
+        <a href="./sources/hello.c.zip">Download source</a>
 
         <h3>C++</h3>
         <div class="Example"><pre><code class="language-cpp">// hello world example on C++ language
@@ -59,7 +67,7 @@ func main()
     fmt.Println("Hello World!")
 }</code></pre></div>
         <a href="./sources/hello.go.zip">Download source</a>
-        <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.5.0/build/highlight.min.js"></script>
+        <script src="highlight.pack.js"></script>
         <script>hljs.initHighlightingOnLoad()</script>
     </div>
     <footer>Created by 3pixl. <a href="https://github.com/3pixl">Github</a>.</footer>
