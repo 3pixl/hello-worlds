@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+:root {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  width: 80%;
+  margin: 0px auto;
+}
+
+.ExamplesContainer {
+  text-align: left;
+  padding-top: 3px;
+}
+
+.Example {
+    border-style: solid;
+    border-color: #242c24;
+    border-radius: 7px;
+    border-width: 0.5px;
+    background-color: #272822;
+    padding: 5px;
+}
+
+footer {
+  text-align: left;
+  padding-top: 10px;
+  font-size: small;
+}
