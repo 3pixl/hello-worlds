@@ -18,24 +18,6 @@
 
         <p>Examples on:</p>
 
-        <h3>Assembly</h3>
-        <div class="Example"><pre><code class="language-x86asm">; hello world example on assembly language
-; the following code is written for NASM assembler
-; with help of C functions
-
-global  _main
-extern  _printf
-
-section .text
-_main:
-push    message
-call    _printf
-add     esp, 4
-ret
-message:
-db      'Hello World!', 10, 0</code></pre></div>
-        <a href="./sources/hello.asm.zip">Download source</a>
-
         <h3>C</h3>
         <div class="Example"><pre><code class="language-c">// hello world example on C language
 #include "stdio.h"
