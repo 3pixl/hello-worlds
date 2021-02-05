@@ -1,0 +1,22 @@
+{
+  "short_name": "Hello Worlds",
+  "name": "Hello Worlds: place, where all hello world examples are contained",
+  "icons": [
+    {
+      "src": "./icons/icons-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "./icons/icons-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/pwa/?source=pwa",
+  "background_color": "#FFFFFF",
+  "display": "minimal-ui",
+  "scope": "/pwa/",
+  "theme_color": "#FFFFFF",
+  "description": "hello world example archive"
+}
