@@ -1,0 +1,57 @@
+/* open sans thin */
+@font-face {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 300;
+	src: local(''),
+		url('/fonts/open-sans-v18-latin-300.woff2') format('woff2'),
+		url('/fonts/open-sans-v18-latin-300.woff') format('woff');
+}
+
+/* open sans regular */
+@font-face {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 400;
+	src: local(''),
+    	url('/fonts/open-sans-v18-latin-regular.woff2') format('woff2'),
+    	url('/fonts/open-sans-v18-latin-regular.woff') format('woff');
+}
+
+/* open sans bold */
+@font-face {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 700;
+	src: local(''),
+    	url('/fonts/open-sans-v18-latin-700.woff2') format('woff2'),
+    	url('/fonts/open-sans-v18-latin-700.woff') format('woff');
+}
+
+
+:root {
+	width: 100%;
+	font-family: 'Open Sans';
+	font-weight: 400;
+}
+
+body {
+	display: grid;
+	grid-template-columns: 25% auto;
+	grid-template-rows: 10% auto;
+	background-color: #f4f9f9;
+}
+
+header {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 1;
+}
+
+.panel {
+	grid-column-start: 1;
+	grid-column-end: 1;
+	grid-row-start: 1;
+	grid-row-end: 2;
+}
